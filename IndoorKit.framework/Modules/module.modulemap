@@ -1,0 +1,11 @@
+framework module IndoorKit {
+  umbrella header "IndoorKit.h"
+
+  export *
+  module * { export * }
+}
+
+module IndoorKit.Swift {
+    header "IndoorKit-Swift.h"
+    requires objc
+}

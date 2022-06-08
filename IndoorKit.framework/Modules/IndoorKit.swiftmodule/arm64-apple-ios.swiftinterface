@@ -1,0 +1,35 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)
+// swift-module-flags: -target arm64-apple-ios10.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name IndoorKit
+import AVFoundation
+import CoreGraphics
+import CoreLocation
+import CoreMotion
+import Foundation
+@_exported import IndoorKit
+import Swift
+import UIKit
+import _Concurrency
+public protocol IndoorLocationDelegate : AnyObject {
+  func onLocationChanged(location: CoreLocation.CLLocation, floor: Swift.Int)
+  func onLocationNotFound()
+}
+@objc @_inheritsConvenienceInitializers public class IndoorLocationService : ObjectiveC.NSObject {
+  weak public var delegate: IndoorKit.IndoorLocationDelegate?
+  public func startUpdateLocation(zone: IndoorKit.IndoorZone)
+  public func stopUpdateLocation()
+  public func restartUpdateLocation()
+  @objc override dynamic public init()
+  @objc deinit
+}
+public enum IndoorZone {
+  case P27
+  case FVH
+  case MVH
+  case MB
+  public static func == (a: IndoorKit.IndoorZone, b: IndoorKit.IndoorZone) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
