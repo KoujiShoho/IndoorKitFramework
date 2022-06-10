@@ -12,6 +12,8 @@ import UIKit
 import _Concurrency
 public protocol IndoorLocationDelegate : AnyObject {
   func onLocationChanged(location: CoreLocation.CLLocation, floor: Swift.Int)
+  func onHeadingChanged(heading: Swift.Double)
+  func onOrientationChanged(orientation: IndoorKit.PhoneOrientation)
   func onLocationNotFound()
 }
 @objc @_inheritsConvenienceInitializers public class IndoorLocationService : ObjectiveC.NSObject {
@@ -19,6 +21,9 @@ public protocol IndoorLocationDelegate : AnyObject {
   public func startUpdateLocation(zone: IndoorKit.IndoorZone)
   public func stopUpdateLocation()
   public func restartUpdateLocation()
+  public func waitForPocket()
+  public func cancelWaitForPocket()
+  public func backToHand()
   @objc override dynamic public init()
   @objc deinit
 }
@@ -30,6 +35,15 @@ public enum IndoorZone {
   public static func == (a: IndoorKit.IndoorZone, b: IndoorKit.IndoorZone) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum PhoneOrientation : Swift.String {
+  case HAND
+  case POCKET
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
     get
   }
 }

@@ -22,7 +22,7 @@
 		</data>
 		<key>Headers/IndoorKit-Swift.h</key>
 		<data>
-		Hzncqf1EOxVwj8CIpddwW7+GivE=
+		asczNGaA20HcnbbZnSe6yU2hiHI=
 		</data>
 		<key>Headers/IndoorKit.h</key>
 		<data>
@@ -30,39 +30,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		j61GtjV9k6eqIWxrWfQ4exxkPDw=
-		</data>
-		<key>Modules/IndoorKit.swiftmodule/Project/arm.swiftsourceinfo</key>
-		<data>
-		1/RbE7iDmh+sZEQyGMk0Y0CYzSg=
+		RmDGIL3zsbIH1ZMjzLKkazCMdSQ=
 		</data>
 		<key>Modules/IndoorKit.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		oVWDcTVdqZCjRvLcgg+7vRSZUXY=
+		uODA5I5Ih52ddzYiIIYuMUZgttc=
 		</data>
 		<key>Modules/IndoorKit.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		oVWDcTVdqZCjRvLcgg+7vRSZUXY=
-		</data>
-		<key>Modules/IndoorKit.swiftmodule/Project/armv7-apple-ios.swiftsourceinfo</key>
-		<data>
-		1/RbE7iDmh+sZEQyGMk0Y0CYzSg=
-		</data>
-		<key>Modules/IndoorKit.swiftmodule/Project/armv7.swiftsourceinfo</key>
-		<data>
-		1/RbE7iDmh+sZEQyGMk0Y0CYzSg=
-		</data>
-		<key>Modules/IndoorKit.swiftmodule/arm.swiftdoc</key>
-		<data>
-		W3pb8GmqgpIlCe5wBoeOVQ8vYoU=
-		</data>
-		<key>Modules/IndoorKit.swiftmodule/arm.swiftinterface</key>
-		<data>
-		aJCSfqaDX+4bKE3Ugiyw7ewq4+Q=
-		</data>
-		<key>Modules/IndoorKit.swiftmodule/arm.swiftmodule</key>
-		<data>
-		Q9UDUoB/5fEhNz8nuUSNN1/eUKw=
+		uODA5I5Ih52ddzYiIIYuMUZgttc=
 		</data>
 		<key>Modules/IndoorKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -70,11 +46,11 @@
 		</data>
 		<key>Modules/IndoorKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		XNHrbw3YEvjY4LQAZoj4uVnVHk0=
+		taJKj3KICZ1R0Pa/6GrVc9fetLE=
 		</data>
 		<key>Modules/IndoorKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		liDQsjBzhMQCKWj3Q4+2m3T80dU=
+		HzqOXQLtXa/3rH4BHrCHYEiJ8KA=
 		</data>
 		<key>Modules/IndoorKit.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -82,35 +58,11 @@
 		</data>
 		<key>Modules/IndoorKit.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		XNHrbw3YEvjY4LQAZoj4uVnVHk0=
+		taJKj3KICZ1R0Pa/6GrVc9fetLE=
 		</data>
 		<key>Modules/IndoorKit.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		liDQsjBzhMQCKWj3Q4+2m3T80dU=
-		</data>
-		<key>Modules/IndoorKit.swiftmodule/armv7-apple-ios.swiftdoc</key>
-		<data>
-		W3pb8GmqgpIlCe5wBoeOVQ8vYoU=
-		</data>
-		<key>Modules/IndoorKit.swiftmodule/armv7-apple-ios.swiftinterface</key>
-		<data>
-		aJCSfqaDX+4bKE3Ugiyw7ewq4+Q=
-		</data>
-		<key>Modules/IndoorKit.swiftmodule/armv7-apple-ios.swiftmodule</key>
-		<data>
-		Q9UDUoB/5fEhNz8nuUSNN1/eUKw=
-		</data>
-		<key>Modules/IndoorKit.swiftmodule/armv7.swiftdoc</key>
-		<data>
-		W3pb8GmqgpIlCe5wBoeOVQ8vYoU=
-		</data>
-		<key>Modules/IndoorKit.swiftmodule/armv7.swiftinterface</key>
-		<data>
-		aJCSfqaDX+4bKE3Ugiyw7ewq4+Q=
-		</data>
-		<key>Modules/IndoorKit.swiftmodule/armv7.swiftmodule</key>
-		<data>
-		Q9UDUoB/5fEhNz8nuUSNN1/eUKw=
+		HzqOXQLtXa/3rH4BHrCHYEiJ8KA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -167,11 +119,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Hzncqf1EOxVwj8CIpddwW7+GivE=
+			asczNGaA20HcnbbZnSe6yU2hiHI=
 			</data>
 			<key>hash2</key>
 			<data>
-			1Cp1ic4FOSKukQwbDcqGKzRIgLkT1JcUPOpsYOZl3Wc=
+			SEktEhsmGLdxeNIdIqP9H21h7FiInSIPSGLxWOVGIHw=
 			</data>
 		</dict>
 		<key>Headers/IndoorKit.h</key>
@@ -185,92 +137,26 @@
 			ZbUHvlLMc7q0MkWaiaTxH12v+xrfIIadlzsIJlU1VYw=
 			</data>
 		</dict>
-		<key>Modules/IndoorKit.swiftmodule/Project/arm.swiftsourceinfo</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			1/RbE7iDmh+sZEQyGMk0Y0CYzSg=
-			</data>
-			<key>hash2</key>
-			<data>
-			D68x7/jLRy5Ed5K+GoEapjRx0Z19oZ3mOXIYm+aiKoA=
-			</data>
-		</dict>
 		<key>Modules/IndoorKit.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			oVWDcTVdqZCjRvLcgg+7vRSZUXY=
+			uODA5I5Ih52ddzYiIIYuMUZgttc=
 			</data>
 			<key>hash2</key>
 			<data>
-			1v1zK6DPOysVVUkASwb32vjGwxIjYUluHfjXBqSlgks=
+			N/fa4OVRK8/Ojg7TvZtFCDK2ixLm3H0tgmOsLXVnUZY=
 			</data>
 		</dict>
 		<key>Modules/IndoorKit.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			oVWDcTVdqZCjRvLcgg+7vRSZUXY=
+			uODA5I5Ih52ddzYiIIYuMUZgttc=
 			</data>
 			<key>hash2</key>
 			<data>
-			1v1zK6DPOysVVUkASwb32vjGwxIjYUluHfjXBqSlgks=
-			</data>
-		</dict>
-		<key>Modules/IndoorKit.swiftmodule/Project/armv7-apple-ios.swiftsourceinfo</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			1/RbE7iDmh+sZEQyGMk0Y0CYzSg=
-			</data>
-			<key>hash2</key>
-			<data>
-			D68x7/jLRy5Ed5K+GoEapjRx0Z19oZ3mOXIYm+aiKoA=
-			</data>
-		</dict>
-		<key>Modules/IndoorKit.swiftmodule/Project/armv7.swiftsourceinfo</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			1/RbE7iDmh+sZEQyGMk0Y0CYzSg=
-			</data>
-			<key>hash2</key>
-			<data>
-			D68x7/jLRy5Ed5K+GoEapjRx0Z19oZ3mOXIYm+aiKoA=
-			</data>
-		</dict>
-		<key>Modules/IndoorKit.swiftmodule/arm.swiftdoc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			W3pb8GmqgpIlCe5wBoeOVQ8vYoU=
-			</data>
-			<key>hash2</key>
-			<data>
-			MuJMBJ0cq29xxAekE6e1M0GNeBrNF9BfILgMuMXhc38=
-			</data>
-		</dict>
-		<key>Modules/IndoorKit.swiftmodule/arm.swiftinterface</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			aJCSfqaDX+4bKE3Ugiyw7ewq4+Q=
-			</data>
-			<key>hash2</key>
-			<data>
-			96fRYe2+TQENbNKNETxJ/w1Kkwf7SFjgWCMssAVQANw=
-			</data>
-		</dict>
-		<key>Modules/IndoorKit.swiftmodule/arm.swiftmodule</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Q9UDUoB/5fEhNz8nuUSNN1/eUKw=
-			</data>
-			<key>hash2</key>
-			<data>
-			xmNsCdnGyaiYgSXtqG62Og7fPqeHywoTBPppFc583cY=
+			N/fa4OVRK8/Ojg7TvZtFCDK2ixLm3H0tgmOsLXVnUZY=
 			</data>
 		</dict>
 		<key>Modules/IndoorKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -288,22 +174,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			XNHrbw3YEvjY4LQAZoj4uVnVHk0=
+			taJKj3KICZ1R0Pa/6GrVc9fetLE=
 			</data>
 			<key>hash2</key>
 			<data>
-			TMr+vIQFUEqbVvfKxAYMgPDkeXYtifDkZkFL0GYJ0t8=
+			xSw1LZunn3e7G2ULd1Xmsb7+Ja0T025dZwEZ8EbiRzo=
 			</data>
 		</dict>
 		<key>Modules/IndoorKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			liDQsjBzhMQCKWj3Q4+2m3T80dU=
+			HzqOXQLtXa/3rH4BHrCHYEiJ8KA=
 			</data>
 			<key>hash2</key>
 			<data>
-			OJdTLekhi+K3fRQ9xRNV9uRdPdo5cAtKUEfkB59mBsc=
+			Lk1HnxQLF2XlzsPipW1FCaMx9toVhOl/vFgp9x+2Qnc=
 			</data>
 		</dict>
 		<key>Modules/IndoorKit.swiftmodule/arm64.swiftdoc</key>
@@ -321,88 +207,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			XNHrbw3YEvjY4LQAZoj4uVnVHk0=
+			taJKj3KICZ1R0Pa/6GrVc9fetLE=
 			</data>
 			<key>hash2</key>
 			<data>
-			TMr+vIQFUEqbVvfKxAYMgPDkeXYtifDkZkFL0GYJ0t8=
+			xSw1LZunn3e7G2ULd1Xmsb7+Ja0T025dZwEZ8EbiRzo=
 			</data>
 		</dict>
 		<key>Modules/IndoorKit.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			liDQsjBzhMQCKWj3Q4+2m3T80dU=
+			HzqOXQLtXa/3rH4BHrCHYEiJ8KA=
 			</data>
 			<key>hash2</key>
 			<data>
-			OJdTLekhi+K3fRQ9xRNV9uRdPdo5cAtKUEfkB59mBsc=
-			</data>
-		</dict>
-		<key>Modules/IndoorKit.swiftmodule/armv7-apple-ios.swiftdoc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			W3pb8GmqgpIlCe5wBoeOVQ8vYoU=
-			</data>
-			<key>hash2</key>
-			<data>
-			MuJMBJ0cq29xxAekE6e1M0GNeBrNF9BfILgMuMXhc38=
-			</data>
-		</dict>
-		<key>Modules/IndoorKit.swiftmodule/armv7-apple-ios.swiftinterface</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			aJCSfqaDX+4bKE3Ugiyw7ewq4+Q=
-			</data>
-			<key>hash2</key>
-			<data>
-			96fRYe2+TQENbNKNETxJ/w1Kkwf7SFjgWCMssAVQANw=
-			</data>
-		</dict>
-		<key>Modules/IndoorKit.swiftmodule/armv7-apple-ios.swiftmodule</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Q9UDUoB/5fEhNz8nuUSNN1/eUKw=
-			</data>
-			<key>hash2</key>
-			<data>
-			xmNsCdnGyaiYgSXtqG62Og7fPqeHywoTBPppFc583cY=
-			</data>
-		</dict>
-		<key>Modules/IndoorKit.swiftmodule/armv7.swiftdoc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			W3pb8GmqgpIlCe5wBoeOVQ8vYoU=
-			</data>
-			<key>hash2</key>
-			<data>
-			MuJMBJ0cq29xxAekE6e1M0GNeBrNF9BfILgMuMXhc38=
-			</data>
-		</dict>
-		<key>Modules/IndoorKit.swiftmodule/armv7.swiftinterface</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			aJCSfqaDX+4bKE3Ugiyw7ewq4+Q=
-			</data>
-			<key>hash2</key>
-			<data>
-			96fRYe2+TQENbNKNETxJ/w1Kkwf7SFjgWCMssAVQANw=
-			</data>
-		</dict>
-		<key>Modules/IndoorKit.swiftmodule/armv7.swiftmodule</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Q9UDUoB/5fEhNz8nuUSNN1/eUKw=
-			</data>
-			<key>hash2</key>
-			<data>
-			xmNsCdnGyaiYgSXtqG62Og7fPqeHywoTBPppFc583cY=
+			Lk1HnxQLF2XlzsPipW1FCaMx9toVhOl/vFgp9x+2Qnc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
