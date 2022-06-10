@@ -16,8 +16,9 @@ public protocol IndoorLocationDelegate : AnyObject {
   func onOrientationChanged(orientation: IndoorKit.PhoneOrientation)
   func onLocationNotFound()
 }
-@_hasMissingDesignatedInitializers public class IndoorLocationService {
+public class IndoorLocationService {
   weak public var delegate: IndoorKit.IndoorLocationDelegate?
+  public init()
   public func startUpdateLocation(zone: IndoorKit.IndoorZone)
   public func stopUpdateLocation()
   public func restartUpdateLocation()
