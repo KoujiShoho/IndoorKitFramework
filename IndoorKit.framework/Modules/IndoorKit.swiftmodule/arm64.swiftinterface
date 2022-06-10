@@ -16,7 +16,7 @@ public protocol IndoorLocationDelegate : AnyObject {
   func onOrientationChanged(orientation: IndoorKit.PhoneOrientation)
   func onLocationNotFound()
 }
-@objc @_inheritsConvenienceInitializers public class IndoorLocationService : ObjectiveC.NSObject {
+@_hasMissingDesignatedInitializers public class IndoorLocationService {
   weak public var delegate: IndoorKit.IndoorLocationDelegate?
   public func startUpdateLocation(zone: IndoorKit.IndoorZone)
   public func stopUpdateLocation()
@@ -24,7 +24,6 @@ public protocol IndoorLocationDelegate : AnyObject {
   public func waitForPocket()
   public func cancelWaitForPocket()
   public func backToHand()
-  @objc override dynamic public init()
   @objc deinit
 }
 public enum IndoorZone {
