@@ -14,7 +14,9 @@ public protocol IndoorLocationDelegate : AnyObject {
   func onLocationChanged(location: CoreLocation.CLLocation, floor: Swift.Int)
   func onHeadingChanged(heading: Swift.Double)
   func onOrientationChanged(orientation: IndoorKit.PhoneOrientation)
+  func onClusterChanged(cluster: Swift.Int)
   func onLocationNotFound()
+  func onInitMapDone(walls: [[IndoorKit.Wall]], clusters: [[IndoorKit.Cluster]], stairs: [[IndoorKit.Stair]], elevator: [IndoorKit.Wall])
 }
 public class IndoorLocationService {
   weak public var delegate: IndoorKit.IndoorLocationDelegate?
@@ -25,6 +27,12 @@ public class IndoorLocationService {
   public func waitForPocket()
   public func cancelWaitForPocket()
   public func backToHand()
+  @objc deinit
+}
+public class Stair {
+  public init(path: [CoreLocation.CLLocationCoordinate2D])
+  public func getCoordinatePath() -> [CoreLocation.CLLocationCoordinate2D]
+  public func getPointPath() -> [CoreGraphics.CGPoint]
   @objc deinit
 }
 public enum IndoorZone {
@@ -38,6 +46,12 @@ public enum IndoorZone {
     get
   }
 }
+public class Wall {
+  public init(a: CoreLocation.CLLocationCoordinate2D, b: CoreLocation.CLLocationCoordinate2D)
+  public func getCoordinatePath() -> [CoreLocation.CLLocationCoordinate2D]
+  public func getPointPath() -> [CoreGraphics.CGPoint]
+  @objc deinit
+}
 public enum PhoneOrientation : Swift.String {
   case HAND
   case POCKET
@@ -46,4 +60,12 @@ public enum PhoneOrientation : Swift.String {
   public var rawValue: Swift.String {
     get
   }
+}
+public class Cluster {
+  public init(path: [CoreLocation.CLLocationCoordinate2D], index: Swift.Int, color: UIKit.UIColor)
+  public func getCoordinatePath() -> [CoreLocation.CLLocationCoordinate2D]
+  public func getPointPath() -> [CoreGraphics.CGPoint]
+  public func getIndex() -> Swift.Int
+  public func getColor() -> UIKit.UIColor
+  @objc deinit
 }
